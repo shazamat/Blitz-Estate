@@ -118,4 +118,27 @@ body {
   font-size: 70px;
 }
 
+.about__vino {
+  margin: 45px 0;
+}
+
+.vino-section {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.vino-section p {
+  line-height: 26px;
+}
+
+.variant-btn {
+  margin: 45px 0;
+  border: 1px #2A94E2 solid;
+  background-color: #2A94E2;
+}
+.variant-btn a {
+  color: #fff;
+  font-family: "Geometria", sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */
