@@ -91,4 +91,31 @@ body {
   align-items: center;
 }
 
+.about__container {
+  margin-top: 30px;
+}
+.about__container h1 {
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+.about__container .realty-kvartir {
+  font-size: 22px;
+  padding: 47px 0;
+  line-height: 35px;
+}
+
+.about__list .list {
+  gap: 50px;
+  display: flex;
+}
+.about__list li {
+  gap: 20px;
+  display: flex;
+  align-items: end;
+}
+.about__list li p:nth-child(1) {
+  font-size: 70px;
+}
+
 /*# sourceMappingURL=style.css.map */
