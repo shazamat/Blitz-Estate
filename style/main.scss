@@ -1,0 +1,54 @@
+@import 'base';
+
+/* ========================== Variable ========================== */
+
+
+
+
+
+
+
+
+
+/* ========================== Header ========================== */
+
+.header__container {
+    margin-top: 30px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__call {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    a {
+        font-size: 30px;
+        color: #000000;
+    }
+
+    button {
+        font-family: 'Geometria', sans-serif;
+        color: #000000;
+    }
+}
+
+.call-btn {
+    border: 1px #2A94E2 solid;
+    border-radius: 5px;
+}
+
+.navigation__menu {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+

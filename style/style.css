@@ -1,0 +1,94 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url(../font/Geometria-Medium.ttf);
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+[class*=__container] {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Geometria", sans-serif;
+  background-image: url("../images/background.jfif");
+}
+
+.btn {
+  width: 272px;
+  height: 55px;
+  background: none;
+}
+
+/* ========================== Variable ========================== */
+/* ========================== Header ========================== */
+.header__container {
+  margin-top: 30px;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__call {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header__call a {
+  font-size: 30px;
+  color: #000000;
+}
+.header__call button {
+  font-family: "Geometria", sans-serif;
+  color: #000000;
+}
+
+.call-btn {
+  border: 1px #2A94E2 solid;
+  border-radius: 5px;
+}
+
+.navigation__menu {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
